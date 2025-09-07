@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Massage & Hot Bath Voucher</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe6e6, #fff5f5);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .voucher {
+      background: #fff;
+      border: 2px solid #f5b7b1;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .voucher h1 {
+      color: #d6336c;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .voucher p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 15px;
+    }
+    .fields {
+      margin: 20px 0;
+      text-align: left;
+    }
+    .fields label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    .fields input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .redeem-btn {
+      background: #d6336c;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: background 0.3s;
+    }
+    .redeem-btn:hover {
+      background: #b82e5c;
+    }
+  </style>
+</head>
+<body>
+  <div class="voucher">
+    <h1>💖 Special Voucher 💖</h1>
+    <p>This voucher entitles <strong>[Girlfriend's Name]</strong> to</p>
+    <p><em>One Free Massage</em> & <em>A Relaxing Hot Bath</em></p>
+    <div class="fields">
+      <label for="to">To:</label>
+      <input type="text" id="to" placeholder="Your Name Here">
+      <label for="from">From:</label>
+      <input type="text" id="from" placeholder="Your Name Here">
+    </div>
+    <button class="redeem-btn">Redeem Anytime 💖</button>
+  </div>
+</body>
+</html>
